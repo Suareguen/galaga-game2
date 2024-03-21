@@ -1,0 +1,53 @@
+#board {
+    width: 500px;
+    height: 800px;
+    background-color: black;
+    position: relative;
+    margin: auto;
+    background-image: url('./fondo.jpeg');
+    display: none;
+  }
+
+
+  #player {
+    width: 50px; /* Set the width */
+    height: 50px; /* Set the height */
+    position: absolute; /* Use absolute positioning */
+    top: 750px; /* Position from the top */
+    left: 225px; /* Position from the left */
+    background-image: url('./nave2.jpeg'); /* Add a background image */
+    background-size: cover; /* Ensure the image covers the whole element */
+    background-color: transparent; /* Set the background color */
+  }
+
+
+  .enemy {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    background-image: url('./marcianito.png'); /* Add a background image */
+    background-size: contain; /* Ensure the image covers the whole element */
+    background-repeat: no-repeat
+  }
+
+  .bullet {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    position: absolute;
+  }
+
+  h2 {
+    color: white
+  }
+
+  #end {
+    display: none;
+  }
+
+  #main-board {
+    background-color: azure;
+    width: 900px;
+    height: 800px;
+  }
